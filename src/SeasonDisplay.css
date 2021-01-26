@@ -1,0 +1,33 @@
+.go-left{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.go-right{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.season-display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.season-display.Summer i{
+  color: orange;
+}
+
+.season-display.Winter i{
+  color: rgb(0, 89, 255);
+}
+
+.Winter{
+  background-color:rgb(12, 239, 247);
+}
+.Summer{
+  background-color: rgb(238, 221, 188);
+}
