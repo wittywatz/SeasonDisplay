@@ -12,6 +12,7 @@ const Error = ({message}) =>{
   );
 };
 
+//Adding default props
 Error.defaultProps = {
   message: "An error occured"
 }
