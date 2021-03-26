@@ -1,4 +1,5 @@
 import React from 'react';
+//Loading Component
 
 const Loader = ({message}) => {
   return(
